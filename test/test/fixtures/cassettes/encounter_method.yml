@@ -1,0 +1,79 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://pokeapi.co/api/v2/encounter-method/1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - pokeapi.co
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 05 Jan 2022 21:32:12 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - public, max-age=86400, s-maxage=86400
+      Etag:
+      - W/"118-iSdjN/1JaMtT1Ulq4B5Hus+nNiY"
+      Function-Execution-Id:
+      - va6jxle3y15n
+      X-Cloud-Trace-Context:
+      - 33c0311e2ab07554584f494abcf3bbc3
+      X-Country-Code:
+      - US
+      X-Fh-No-Setcookie-Unroll:
+      - 'true'
+      X-Powered-By:
+      - Express
+      X-Served-By:
+      - cache-pdk17865-PDK
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1641418116.073817,VS0,VE322
+      Vary:
+      - Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding
+      Cf-Cache-Status:
+      - HIT
+      Age:
+      - '216'
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Yu7nWMTgysft1eI83h6SCiXgSSSkmU4ihCTSFXWXW%2B3rIGJsxI073Y29xSQDt0uM9BBuJ4yiW12jAeZk25mIvbwMFXIbdJoGH9qoR4xYKCL8THjo7p3k7smHxdOk"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 6c8fd1622bdd1010-ATL
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJpZCI6MSwibmFtZSI6IndhbGsiLCJuYW1lcyI6W3sibGFuZ3VhZ2UiOnsibmFtZSI6ImRlIiwidXJsIjoiaHR0cHM6Ly9wb2tlYXBpLmNvL2FwaS92Mi9sYW5ndWFnZS82LyJ9LCJuYW1lIjoiSW0gaG9oZW4gR3JhcyBvZGVyIGluIGVpbmVyIEjDtmhsZSBsYXVmZW4ifSx7Imxhbmd1YWdlIjp7Im5hbWUiOiJlbiIsInVybCI6Imh0dHBzOi8vcG9rZWFwaS5jby9hcGkvdjIvbGFuZ3VhZ2UvOS8ifSwibmFtZSI6IldhbGtpbmcgaW4gdGFsbCBncmFzcyBvciBhIGNhdmUifV0sIm9yZGVyIjoxfQ==
+  recorded_at: Wed, 05 Jan 2022 21:32:12 GMT
+recorded_with: VCR 6.0.0
